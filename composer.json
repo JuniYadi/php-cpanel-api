@@ -1,0 +1,22 @@
+{
+    "name": "yadi/php-cpanel-api",
+    "description": "PHP Package for using CPANEL API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juni Yadi",
+            "email": "me@juniyadi.id"
+        }
+    ],
+    "homepage": "https://github.com/JuniYadi/php-cpanel-api",
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "CpanelAPI\\": "src"
+      }
+    }
+}
